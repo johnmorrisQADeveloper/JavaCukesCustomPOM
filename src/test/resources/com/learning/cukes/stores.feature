@@ -29,5 +29,5 @@ Scenario Outline: Successfully logging in via Browsers
 		| firefox   |
 		| phantomjs |
 		#| IE 	    |
-		#| Edge		|
+		#| edge		|
 		
