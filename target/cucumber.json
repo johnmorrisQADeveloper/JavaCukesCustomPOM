@@ -1,0 +1,307 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 28,
+        "name": "Successfully logging in via Browsers",
+        "description": "",
+        "id": "authentication;successfully-logging-in-via-browsers;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5176180720,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the Symbiote home page \"https://symbiote-app.herokuapp.com\" on \"chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://symbiote-app.herokuapp.com",
+                  "offset": 24
+                },
+                {
+                  "val": "chrome",
+                  "offset": 64
+                }
+              ],
+              "location": "LoginSteps.the_symbiote_home_page_something_on_something(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2278095473,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "logging in as an admin",
+            "match": {
+              "location": "LoginSteps.logging_in_as_an_admin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 897133095,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "the home page navigation is available",
+            "match": {
+              "location": "LoginSteps.the_home_page_navigation_is_available()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "Successfully logging in via Browsers",
+        "description": "",
+        "id": "authentication;successfully-logging-in-via-browsers;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5384819501,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the Symbiote home page \"https://symbiote-app.herokuapp.com\" on \"firefox\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://symbiote-app.herokuapp.com",
+                  "offset": 24
+                },
+                {
+                  "val": "firefox",
+                  "offset": 64
+                }
+              ],
+              "location": "LoginSteps.the_symbiote_home_page_something_on_something(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2777181575,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "logging in as an admin",
+            "match": {
+              "location": "LoginSteps.logging_in_as_an_admin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 528772149,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "the home page navigation is available",
+            "match": {
+              "location": "LoginSteps.the_home_page_navigation_is_available()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 30,
+        "name": "Successfully logging in via Browsers",
+        "description": "",
+        "id": "authentication;successfully-logging-in-via-browsers;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4982701256,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the Symbiote home page \"https://symbiote-app.herokuapp.com\" on \"phantomjs\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://symbiote-app.herokuapp.com",
+                  "offset": 24
+                },
+                {
+                  "val": "phantomjs",
+                  "offset": 64
+                }
+              ],
+              "location": "LoginSteps.the_symbiote_home_page_something_on_something(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2017196111,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "logging in as an admin",
+            "match": {
+              "location": "LoginSteps.logging_in_as_an_admin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1208322487,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "the home page navigation is available",
+            "match": {
+              "location": "LoginSteps.the_home_page_navigation_is_available()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 31,
+        "name": "Successfully logging in via Browsers",
+        "description": "",
+        "id": "authentication;successfully-logging-in-via-browsers;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4011594698,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the Symbiote home page \"https://symbiote-app.herokuapp.com\" on \"IE\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://symbiote-app.herokuapp.com",
+                  "offset": 24
+                },
+                {
+                  "val": "IE",
+                  "offset": 64
+                }
+              ],
+              "location": "LoginSteps.the_symbiote_home_page_something_on_something(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2724434424,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "logging in as an admin",
+            "match": {
+              "location": "LoginSteps.logging_in_as_an_admin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997317088,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "the home page navigation is available",
+            "match": {
+              "location": "LoginSteps.the_home_page_navigation_is_available()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 32,
+        "name": "Successfully logging in via Browsers",
+        "description": "",
+        "id": "authentication;successfully-logging-in-via-browsers;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1529470051,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the Symbiote home page \"https://symbiote-app.herokuapp.com\" on \"edge\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://symbiote-app.herokuapp.com",
+                  "offset": 24
+                },
+                {
+                  "val": "edge",
+                  "offset": 64
+                }
+              ],
+              "location": "LoginSteps.the_symbiote_home_page_something_on_something(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 457634148,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "logging in as an admin",
+            "match": {
+              "location": "LoginSteps.logging_in_as_an_admin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1108114236,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "the home page navigation is available",
+            "match": {
+              "location": "LoginSteps.the_home_page_navigation_is_available()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Authentication",
+    "description": "",
+    "id": "authentication",
+    "keyword": "Feature",
+    "uri": "com/learning/cukes/stores.feature"
+  }
+]

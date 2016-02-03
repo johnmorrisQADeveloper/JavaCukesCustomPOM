@@ -1,0 +1,84 @@
+Feature: Authentication
+
+  #Scenario: Successfully logging in
+  #  Given the Symbiote home page "https://symbiote-app.herokuapp.com" on "chrome"
+  #  When logging in as an admin
+  #  Then the home page navigation is available
+  #
+  #Scenario: Successfully logging in
+  #	Given the Symbiote home page "https://symbiote-app.herokuapp.com" on "Edge"
+  #	When logging in as an admin with details
+  #		| username | password |
+  #		| admin    | admin    |
+  #	Then the home page navigation is available
+  #  Scenario: logging in with user name & password
+  #    Given Given the Symbiote home page "https://symbiote-app.herokuapp.com" on "Chrome"
+  #    And I enter username as "admin" in symbiote
+  #    When I enter password as "admin" in symbiote
+  #    Then I click on loginbutton in symbiote
+  #
+  Scenario Outline: Successfully logging in via Browsers                             [90m# com/learning/cukes/stores.feature:22[0m
+    [36mGiven [0m[36mthe Symbiote home page "https://symbiote-app.herokuapp.com" on "<browser>"[0m
+    [36mAnd [0m[36mlogging in as an admin[0m
+    [36mThen [0m[36mthe home page navigation is available[0m
+
+    Examples: 
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4) on port 37364
+Only local connections are allowed.
+log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+
+  Scenario Outline: Successfully logging in via Browsers                          [90m# com/learning/cukes/stores.feature:28[0m
+    [32mGiven [0m[32mthe Symbiote home page "[0m[32m[1mhttps://symbiote-app.herokuapp.com[0m[32m" on "[0m[32m[1mchrome[0m[32m"[0m [90m# LoginSteps.the_symbiote_home_page_something_on_something(String,String)[0m
+    [32mAnd [0m[32mlogging in as an admin[0m                                                    [90m# LoginSteps.logging_in_as_an_admin()[0m
+    [32mThen [0m[32mthe home page navigation is available[0m                                    [90m# LoginSteps.the_home_page_navigation_is_available()[0m
+
+  Scenario Outline: Successfully logging in via Browsers                           [90m# com/learning/cukes/stores.feature:29[0m
+    [32mGiven [0m[32mthe Symbiote home page "[0m[32m[1mhttps://symbiote-app.herokuapp.com[0m[32m" on "[0m[32m[1mfirefox[0m[32m"[0m [90m# LoginSteps.the_symbiote_home_page_something_on_something(String,String)[0m
+    [32mAnd [0m[32mlogging in as an admin[0m                                                     [90m# LoginSteps.logging_in_as_an_admin()[0m
+    [32mThen [0m[32mthe home page navigation is available[0m                                     [90m# LoginSteps.the_home_page_navigation_is_available()[0m
+Feb 03, 2016 10:19:42 PM org.openqa.selenium.phantomjs.PhantomJSDriverService <init>
+INFO: executable: C:\Users\fennymon\AppData\Local\Temp\phantomjs-1.9.8\phantomjs.exe
+Feb 03, 2016 10:19:42 PM org.openqa.selenium.phantomjs.PhantomJSDriverService <init>
+INFO: port: 10242
+Feb 03, 2016 10:19:42 PM org.openqa.selenium.phantomjs.PhantomJSDriverService <init>
+INFO: arguments: [--webdriver=10242, --webdriver-logfile=C:\Users\fennymon\Desktop\CurrentBDD\JavaCukesCustomPOM\JavaCukesCustomPOM\phantomjsdriver.log]
+Feb 03, 2016 10:19:42 PM org.openqa.selenium.phantomjs.PhantomJSDriverService <init>
+INFO: environment: {}
+PhantomJS is launching GhostDriver...
+[INFO  - 2016-02-03T22:19:43.165Z] GhostDriver - Main - running on port 10242
+[INFO  - 2016-02-03T22:19:43.630Z] Session [39c46080-cac4-11e5-bc9f-63708b149af0] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2016-02-03T22:19:43.630Z] Session [39c46080-cac4-11e5-bc9f-63708b149af0] - page.customHeaders:  - {}
+[INFO  - 2016-02-03T22:19:43.631Z] Session [39c46080-cac4-11e5-bc9f-63708b149af0] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"windows-8-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-02-03T22:19:43.634Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 39c46080-cac4-11e5-bc9f-63708b149af0
+[INFO  - 2016-02-03T22:19:49.669Z] ShutdownReqHand - _handle - About to shutdown
+
+  Scenario Outline: Successfully logging in via Browsers                             [90m# com/learning/cukes/stores.feature:30[0m
+    [32mGiven [0m[32mthe Symbiote home page "[0m[32m[1mhttps://symbiote-app.herokuapp.com[0m[32m" on "[0m[32m[1mphantomjs[0m[32m"[0m [90m# LoginSteps.the_symbiote_home_page_something_on_something(String,String)[0m
+    [32mAnd [0m[32mlogging in as an admin[0m                                                       [90m# LoginSteps.logging_in_as_an_admin()[0m
+    [32mThen [0m[32mthe home page navigation is available[0m                                       [90m# LoginSteps.the_home_page_navigation_is_available()[0m
+Started InternetExplorerDriver server (32-bit)
+2.50.0.0
+Listening on port 1579
+Only local connections are allowed
+
+  Scenario Outline: Successfully logging in via Browsers                      [90m# com/learning/cukes/stores.feature:31[0m
+    [32mGiven [0m[32mthe Symbiote home page "[0m[32m[1mhttps://symbiote-app.herokuapp.com[0m[32m" on "[0m[32m[1mIE[0m[32m"[0m [90m# LoginSteps.the_symbiote_home_page_something_on_something(String,String)[0m
+    [32mAnd [0m[32mlogging in as an admin[0m                                                [90m# LoginSteps.logging_in_as_an_admin()[0m
+    [32mThen [0m[32mthe home page navigation is available[0m                                [90m# LoginSteps.the_home_page_navigation_is_available()[0m
+Listening on http://localhost:41330/ 
+Stopping server.
+
+  Scenario Outline: Successfully logging in via Browsers                        [90m# com/learning/cukes/stores.feature:32[0m
+    [32mGiven [0m[32mthe Symbiote home page "[0m[32m[1mhttps://symbiote-app.herokuapp.com[0m[32m" on "[0m[32m[1medge[0m[32m"[0m [90m# LoginSteps.the_symbiote_home_page_something_on_something(String,String)[0m
+    [32mAnd [0m[32mlogging in as an admin[0m                                                  [90m# LoginSteps.logging_in_as_an_admin()[0m
+    [32mThen [0m[32mthe home page navigation is available[0m                                  [90m# LoginSteps.the_home_page_navigation_is_available()[0m
+
+5 Scenarios ([32m5 passed[0m)
+15 Steps ([32m15 passed[0m)
+0m36.079s
+
