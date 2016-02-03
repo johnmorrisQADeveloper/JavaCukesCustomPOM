@@ -28,6 +28,6 @@ Scenario Outline: Successfully logging in via Browsers
 		| chrome    |
 		| firefox   |
 		| phantomjs |
-		| IE 	    |
-		| Edge		|
+		#| IE 	    |
+		#| Edge		|
 		
